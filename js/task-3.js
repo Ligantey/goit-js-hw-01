@@ -1,9 +1,9 @@
 // Задача 3. Ширина елемента
 
 function getElementWidth(content, padding, border) {
-  contentWidth = Number.parseFloat(content);
-  paddingWidth = Number.parseFloat(padding);
-  borderWidth = Number.parseFloat(border);
+  let contentWidth = Number.parseFloat(content);
+  let paddingWidth = Number.parseFloat(padding);
+  let borderWidth = Number.parseFloat(border);
 
   return contentWidth + paddingWidth * 2 + borderWidth * 2;
 }
